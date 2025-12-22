@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Projects - Amir Rajabpoor Alisepahi</title>
+  <title>Research - Amir Rajabpoor Alisepahi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Project portfolio for Amir Rajabpoor Alisepahi, including metamaterials, thermo mechanical stacks, and data and complex systems projects."
+    content="Research by Amir Rajabpoor Alisepahi on mechanical and phononic metamaterials, wave propagation, and thermo mechanical behavior of device and package stacks."
   />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -20,8 +20,8 @@
       </div>
       <nav class="site-nav">
         <a href="index.html">Home</a>
-        <a href="research.html">Research</a>
-        <a href="projects.html" class="active">Projects</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="projects.html">Projects</a>
         <a href="clips.html">Clips</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -29,48 +29,49 @@
 
     <section class="section">
       <div class="section-header">
-        <div class="section-kicker">Portfolio</div>
-        <h2 class="section-title">Selected projects</h2>
+        <div class="section-kicker">Research overview</div>
+        <h2 class="section-title">Mechanical and phononic metamaterials</h2>
         <p class="section-lead">
-          A mix of research and applied work. This is a high level overview. I can share papers, reports,
-          or code on request.
+          My research focuses on architected mechanical structures that control vibration and acoustic waves.
+          I work across theory, simulation, and experiment, with an emphasis on topological phenomena
+          and realistic device and package constraints.
         </p>
       </div>
 
       <div class="grid-3">
         <div class="card">
-          <h3>Topological phononic ladders</h3>
+          <h3>Topological phononic lattices</h3>
           <p>
-            Experimental and numerical study of a long range phononic ladder that supports gapless edge states.
+            One dimensional and quasi one dimensional lattices that support robust localized modes.
           </p>
           <ul>
-            <li>Designed lattice parameters and couplings for edge localization.</li>
-            <li>Computed band structures and mode shapes in COMSOL and custom codes.</li>
-            <li>Fabricated and tested with 3D printing and laser vibrometry.</li>
+            <li>Su Schrieffer Heeger chains and ladders with tunable unit cells.</li>
+            <li>In gap edge and domain wall states under strong perturbations.</li>
+            <li>Effect of long range coupling on band topology and winding numbers.</li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>Winding numbers with long range coupling</h3>
+          <h3>Waveguides and energy routing</h3>
           <p>
-            Analysis of how standard topological invariants break down when interactions extend beyond nearest neighbors.
+            Using band gaps and topological states to control where waves travel in a structure.
           </p>
           <ul>
-            <li>Developed discrete models with multiple coupling ranges.</li>
-            <li>Mapped phase diagrams and compared with numerical spectra.</li>
-            <li>Connected theory to realistic mechanical implementations.</li>
+            <li>Guided modes along interfaces and defects in phononic crystals.</li>
+            <li>Transition from extended to localized modes under geometry or material changes.</li>
+            <li>Analysis of robustness to disorder and fabrication variation.</li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>Graphene sheet wave analysis</h3>
+          <h3>Nonlinear and amplitude dependent effects</h3>
           <p>
-            Study of thick rectangular graphene sheets and small scale effects on dynamics.
+            How nonlinearity modifies dispersion, localization, and energy transfer.
           </p>
           <ul>
-            <li>Used nonlocal elasticity and high order plate theories.</li>
-            <li>Computed natural and bifurcation frequencies under different thicknesses.</li>
-            <li>Explored implications for nanoscale devices and resonators.</li>
+            <li>Mass in mass chains with nonlinear springs and internal resonators.</li>
+            <li>Multiple scale style analysis and numerical time integration.</li>
+            <li>Frequency shifts and new branches that appear with amplitude.</li>
           </ul>
         </div>
       </div>
@@ -78,44 +79,48 @@
 
     <section class="section">
       <div class="section-header">
-        <div class="section-kicker">Data and complex systems</div>
-        <h2 class="section-title">Applied data projects</h2>
+        <div class="section-kicker">Methods</div>
+        <h2 class="section-title">How I work</h2>
+        <p class="section-lead">
+          I combine analytical derivations, numerical solvers, and experiments, and I try to keep the same problem
+          flowing through all three levels.
+        </p>
       </div>
 
       <div class="grid-3">
         <div class="card">
-          <h3>Soil parameter prediction</h3>
+          <h3>Analytical models</h3>
           <p>
-            Counter propagation neural networks for estimating soil parameters from limited measurements.
+            I start from minimal models that capture the key physics and give intuition.
           </p>
           <ul>
-            <li>Preprocessed geotechnical datasets and engineered features.</li>
-            <li>Trained and validated models on multiple target variables.</li>
-            <li>Evaluated performance and sensitivity for practical recommendations.</li>
+            <li>Dispersion relations for periodic chains and beams.</li>
+            <li>Eigenvalue problems for finite lattices and edge states.</li>
+            <li>Asymptotic and perturbation methods when nonlinearity is present.</li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>Accident severity in Vermont</h3>
+          <h3>Finite elements and numerics</h3>
           <p>
-            Machine learning models for predicting road accident severity based on environment and context.
+            I use numerical solvers when geometry, materials, or boundary conditions become complex.
           </p>
           <ul>
-            <li>Used weather, time, and road information as predictors.</li>
-            <li>Built classification models and analyzed important features.</li>
-            <li>Explored directions for risk mapping and proactive safety.</li>
+            <li>COMSOL and other FEM tools for band structures and mode shapes.</li>
+            <li>Custom MATLAB and Python codes for large chains and parametric sweeps.</li>
+            <li>Time domain simulations and FFT based spectro spatial analysis.</li>
           </ul>
         </div>
 
         <div class="card">
-          <h3>Malaria prevalence and spatial structure</h3>
+          <h3>Experiments</h3>
           <p>
-            Spatio temporal modeling of malaria data using R INLA and SPDE based methods.
+            I aim to close the loop with measurements whenever possible.
           </p>
           <ul>
-            <li>Modeled spatial correlation and time trends in incidence data.</li>
-            <li>Compared different prior and covariance structures.</li>
-            <li>Generated risk maps as a function of location and time.</li>
+            <li>3D printing of mechanical and phononic samples.</li>
+            <li>Laser vibrometry for full field vibration measurements.</li>
+            <li>Comparison of measured and predicted dispersion and mode localization.</li>
           </ul>
         </div>
       </div>
@@ -123,26 +128,24 @@
 
     <section class="section">
       <div class="section-header">
-        <div class="section-kicker">Text and social data</div>
-        <h2 class="section-title">Language and social signals</h2>
+        <div class="section-kicker">Current topics</div>
+        <h2 class="section-title">Active research directions</h2>
       </div>
 
       <div class="card">
-        <h3>Quantifying antisemitism on Twitter</h3>
-        <p>
-          Exploration of annotation schemes and classifier pipelines for detecting antisemitic content in social media.
-        </p>
+        <h3>Examples of current and recent questions</h3>
         <ul>
-          <li>Defined labeling categories with attention to edge cases.</li>
-          <li>Tested baselines and more advanced models for text classification.</li>
-          <li>Discussed limitations and risks of automated moderation tools.</li>
+          <li>How far can we perturb an SSH style lattice and still retain useful interface modes.</li>
+          <li>What happens to the usual winding number picture when we include long range interactions.</li>
+          <li>How temperature, geometry, and small scale effects shift phonon bands in graphene like systems.</li>
+          <li>How phononic or architected layers can help manage heat and stress in device and package stacks.</li>
         </ul>
       </div>
     </section>
 
     <footer class="site-footer">
       <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
-      <span>Projects page</span>
+      <span>Research page</span>
     </footer>
   </div>
 
