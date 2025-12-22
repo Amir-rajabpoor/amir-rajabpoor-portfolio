@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Project portfolio for Amir Rajabpoor Alisepahi, including metamaterials, thermo mechanical stacks, and data and complex systems projects."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Portfolio</div>
+        <h2 class="section-title">Selected projects</h2>
+        <p class="section-lead">
+          A mix of research and applied work. This is a high level overview. I can share papers, reports,
+          or code on request.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Topological phononic ladders</h3>
+          <p>
+            Experimental and numerical study of a long range phononic ladder that supports gapless edge states.
+          </p>
+          <ul>
+            <li>Designed lattice parameters and couplings for edge localization.</li>
+            <li>Computed band structures and mode shapes in COMSOL and custom codes.</li>
+            <li>Fabricated and tested with 3D printing and laser vibrometry.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Winding numbers with long range coupling</h3>
+          <p>
+            Analysis of how standard topological invariants break down when interactions extend beyond nearest neighbors.
+          </p>
+          <ul>
+            <li>Developed discrete models with multiple coupling ranges.</li>
+            <li>Mapped phase diagrams and compared with numerical spectra.</li>
+            <li>Connected theory to realistic mechanical implementations.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Graphene sheet wave analysis</h3>
+          <p>
+            Study of thick rectangular graphene sheets and small scale effects on dynamics.
+          </p>
+          <ul>
+            <li>Used nonlocal elasticity and high order plate theories.</li>
+            <li>Computed natural and bifurcation frequencies under different thicknesses.</li>
+            <li>Explored implications for nanoscale devices and resonators.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Data and complex systems</div>
+        <h2 class="section-title">Applied data projects</h2>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Soil parameter prediction</h3>
+          <p>
+            Counter propagation neural networks for estimating soil parameters from limited measurements.
+          </p>
+          <ul>
+            <li>Preprocessed geotechnical datasets and engineered features.</li>
+            <li>Trained and validated models on multiple target variables.</li>
+            <li>Evaluated performance and sensitivity for practical recommendations.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Accident severity in Vermont</h3>
+          <p>
+            Machine learning models for predicting road accident severity based on environment and context.
+          </p>
+          <ul>
+            <li>Used weather, time, and road information as predictors.</li>
+            <li>Built classification models and analyzed important features.</li>
+            <li>Explored directions for risk mapping and proactive safety.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Malaria prevalence and spatial structure</h3>
+          <p>
+            Spatio temporal modeling of malaria data using R INLA and SPDE based methods.
+          </p>
+          <ul>
+            <li>Modeled spatial correlation and time trends in incidence data.</li>
+            <li>Compared different prior and covariance structures.</li>
+            <li>Generated risk maps as a function of location and time.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Text and social data</div>
+        <h2 class="section-title">Language and social signals</h2>
+      </div>
+
+      <div class="card">
+        <h3>Quantifying antisemitism on Twitter</h3>
+        <p>
+          Exploration of annotation schemes and classifier pipelines for detecting antisemitic content in social media.
+        </p>
+        <ul>
+          <li>Defined labeling categories with attention to edge cases.</li>
+          <li>Tested baselines and more advanced models for text classification.</li>
+          <li>Discussed limitations and risks of automated moderation tools.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Projects page</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
