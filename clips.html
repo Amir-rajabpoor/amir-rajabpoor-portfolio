@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clips - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Video clips and demonstrations of Amir Rajabpoor Alisepahi’s work on metamaterials, wave propagation, and experiments."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html" class="active">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Media</div>
+        <h2 class="section-title">Video clips and demonstrations</h2>
+        <p class="section-lead">
+          This page is a gallery for short clips of experiments, simulations, and talks.
+          You can upload mp4 files to a folder called <code>clips</code> in this repository and point the players below to them.
+        </p>
+      </div>
+
+      <div class="grid-3">
+
+        <div class="card">
+          <h3>Edge mode visualization</h3>
+          <p>
+            Placeholder for a short clip showing edge mode motion in a phononic ladder or chain.
+          </p>
+          <p>
+            After you upload a file such as <code>clips/edge-mode.mp4</code>, this player will show it.
+          </p>
+          <video controls width="100%">
+            <source src="clips/edge-mode.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="card">
+          <h3>Dispersion and wave packet propagation</h3>
+          <p>
+            Placeholder for a clip of a wave packet evolving in time along a chain or lattice.
+          </p>
+          <p>
+            Upload a file such as <code>clips/wave-packet.mp4</code> or change the source path below.
+          </p>
+          <video controls width="100%">
+            <source src="clips/wave-packet.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="card">
+          <h3>Talk or presentation excerpt</h3>
+          <p>
+            Placeholder for a short part of a talk, poster pitch, or screen recording.
+          </p>
+          <p>
+            Upload a file such as <code>clips/talk-snippet.mp4</code> or adjust the path.
+          </p>
+          <video controls width="100%">
+            <source src="clips/talk-snippet.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <h3>How to update this page</h3>
+        <ul>
+          <li>Create a folder named <code>clips</code> in the repository root if it does not exist.</li>
+          <li>Upload your mp4 files into that folder using the GitHub web interface or git.</li>
+          <li>Change the <code>src</code> paths in the <code>video</code> tags above to match the filenames you use.</li>
+          <li>Commit the changes and reload this page.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Clips page</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
