@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact - Amir Rajabpoor Alisepahi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Contact information and links for Amir Rajabpoor Alisepahi."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">Get in touch</div>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">
+          The simplest way to reach me is by email. I am happy to talk about research, collaborations,
+          postdoctoral opportunities, and industry or startup work related to metamaterials, acoustics, and devices.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Email</h3>
+          <p>
+            For anything research or collaboration related, email is best.
+          </p>
+          <ul>
+            <li><strong>Primary email:</strong> <a href="mailto:Arajabpo@uvm.edu">Arajabpo@uvm.edu</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Documents and profiles</h3>
+          <p>
+            These links give more detail on my work and background.
+          </p>
+          <ul>
+            <li><strong>CV (PDF):</strong> <a href="Amir_CV.pdf" target="_blank">Download</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/amir-rajabpoor" target="_blank">amir-rajabpoor</a></li>
+            <!-- Replace # with your live URLs -->
+            <li><strong>Google Scholar:</strong> <a href="#" target="_blank">View profile</a></li>
+            <li><strong>LinkedIn:</strong> <a href="#" target="_blank">Connect</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>What I am open to</h3>
+          <p>
+            I am especially interested in roles and collaborations that involve:
+          </p>
+          <ul>
+            <li>Mechanical and phononic metamaterials for vibration, acoustics, or heat management.</li>
+            <li>Device and package scale thermo mechanical modeling.</li>
+            <li>Data driven analysis of complex engineering or environmental systems.</li>
+            <li>Interdisciplinary projects that mix mechanics, materials, and computation.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>Contact page</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
