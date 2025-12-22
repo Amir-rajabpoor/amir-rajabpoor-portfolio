@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Amir Rajabpoor Alisepahi - Acoustic / Mechanical Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Acoustic / mechanical engineer and PhD candidate working on mechanical and phononic metamaterials, waveguides, and thermo-mechanical behavior of device and package stacks."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+
+    <!-- Shared header / nav -->
+    <header class="site-header">
+      <div class="site-header-left">
+        <div class="site-logo">AR</div>
+        <div class="site-title">Amir Rajabpoor Alisepahi</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="clips.html">Clips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="hero-eyebrow">Acoustic and mechanical engineer - PhD candidate</div>
+        <h1 class="hero-title">Mechanical and phononic metamaterials for wave and device applications</h1>
+        <p class="hero-subtitle">
+          I work at the intersection of mechanical and acoustic metamaterials, waveguides, and
+          thermo-mechanical behavior of device and package stacks, with an eye toward real engineering use.
+        </p>
+
+        <ul class="hero-list">
+          <li>Design and analysis of mechanical and phononic lattices with non-trivial band structures and edge states.</li>
+          <li>End-to-end workflow: analytical models, COMSOL and finite elements, 3D printed prototypes, laser vibrometry.</li>
+          <li>Complex systems and data science tools for environmental, biomedical, and reliability datasets.</li>
+        </ul>
+
+        <div class="hero-meta">
+          <span class="chip">PhD Mechanical Engineering - University of Vermont</span>
+          <span class="chip">Acoustic / mechanical engineer</span>
+          <span class="chip">U.S. permanent resident</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="research.html">See research focus</a>
+          <a class="btn btn-outline" href="projects.html">View projects</a>
+          <a class="btn btn-outline" href="mailto:Arajabpo@uvm.edu">Email me</a>
+        </div>
+      </div>
+
+      <aside class="hero-right">
+        <h2>Quick profile</h2>
+        <p>
+          Final year PhD candidate in Mechanical Engineering at the University of Vermont. My work centers on mechanical
+          and phononic metamaterials, waveguides, and thermo-mechanical behavior of device and package like stacks.
+        </p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:Arajabpo@uvm.edu">Arajabpo@uvm.edu</a></li>
+          <li><strong>CV:</strong> <a href="Amir_CV.pdf" target="_blank">Download (PDF)</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/amir-rajabpoor" target="_blank">amir-rajabpoor</a></li>
+          <!-- Replace # with your live URLs -->
+          <li><strong>Google Scholar:</strong> <a href="#" target="_blank">View profile</a></li>
+          <li><strong>LinkedIn:</strong> <a href="#" target="_blank">Connect</a></li>
+        </ul>
+        <div>
+          <strong>Key themes</strong>
+          <div class="hero-pills">
+            <span class="hero-pill">Mechanical and phononic metamaterials</span>
+            <span class="hero-pill">Topological waveguides</span>
+            <span class="hero-pill">Thermo-mechanical stacks</span>
+            <span class="hero-pill">COMSOL and MATLAB</span>
+            <span class="hero-pill">Complex systems and ML</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Focus areas -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-kicker">What I do</div>
+        <h2 class="section-title">Focus areas</h2>
+        <p class="section-lead">
+          Three pillars that describe most of my work - what I design, how I model it, and where I want to apply it.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Mechanical and phononic metamaterials</h3>
+          <p>
+            Architected mechanical lattices that shape vibration and sound across a wide frequency range.
+          </p>
+          <ul>
+            <li>Su-Schrieffer-Heeger type chains and ladders with engineered band gaps.</li>
+            <li>Localized edge and domain wall states, including strongly perturbed regimes.</li>
+            <li>Long range and beyond nearest neighbor interactions in realistic structures.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Devices, packaging and heat</h3>
+          <p>
+            Applying metamaterial ideas to devices and package like stacks, with thermal and mechanical constraints.
+          </p>
+          <ul>
+            <li>Phononic concepts for chip level heat spreading and reliability.</li>
+            <li>Thermo mechanical analysis of stacked device and package architectures.</li>
+            <li>Experience with semiconductor devices and packaging courses and training.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Complex systems and data</h3>
+          <p>
+            Using data and statistical methods when the physics and the system scale demand it.
+          </p>
+          <ul>
+            <li>Machine learning for soil properties and accident severity prediction.</li>
+            <li>Spatial and spatio temporal models for environmental and biomedical data.</li>
+            <li>Text and social data analysis, including hate speech detection pipelines.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Amir Rajabpoor Alisepahi</span>
+      <span>New multi page portfolio hosted on GitHub Pages</span>
+    </footer>
+  </div>
+
+  <script>
+    const yearEl = document.getElementById("year");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
